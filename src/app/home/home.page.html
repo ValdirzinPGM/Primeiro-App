@@ -4,14 +4,38 @@
       <ion-title>Categorias</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content>
-    <ion-list>
-      <ion-item>
 
-      </ion-item>
-    </ion-list>
+  <ion-content>
+    <div class="menu-bar">
+      <ion-list>
+        <div class="Profile">
+          <ion-item>
+            <p>Meu Perfil</p>
+          </ion-item>
+        </div>
+        <ion-item>
+          <ion-text>Search</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-text>Home</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-text>Series</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-text>Filmes</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-text>My List</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-text>New</ion-text>
+        </ion-item>
+      </ion-list>
+    </div>
   </ion-content>
 </ion-menu>
+
 <div class="ion-page" id="main-content">
   <ion-header>
     <ion-toolbar>
@@ -20,5 +44,6 @@
       </ion-buttons>
       <ion-title>Filmes</ion-title>
     </ion-toolbar>
+    <app-home-page-movies></app-home-page-movies>
   </ion-header>
 </div>
